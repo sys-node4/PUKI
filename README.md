@@ -2,24 +2,24 @@
 
 A robust, asynchronous Python script built with Playwright to perform automated web visits and interactions. Designed for high reliability, this suite features dynamic proxy rotation, modern randomized User-Agents, and built-in stealth capabilities to bypass basic bot detection.
 
-## ✨ Features
+# ✨ Features
 
-# Asynchronous Execution: 
+## Asynchronous Execution: 
 Built on asyncio and playwright.async_api for blazing-fast concurrent browser sessions.
 
-# Concurrency Limiting:
+## Concurrency Limiting:
 Employs asyncio.Semaphore to manage CPU/RAM usage safely, preventing system overloads.
 
-# Advanced Stealth: 
+## Advanced Stealth: 
 Integrates playwright-stealth (v2.x API) to mask browser fingerprints and avoid detection.
 
-# Smart Proxy Parsing: 
+## Smart Proxy Parsing: 
 Automatically detects and formats HTTP, SOCKS4, and SOCKS5 proxies from an external list, with or without authentication.
 
-# Strict Context Isolation:
+## Strict Context Isolation:
 Ensures zero cookie, local storage, or session leakage between different proxies/IPs.
 
-# Human-Like Interactions:
+## Human-Like Interactions:
 Simulates randomized mouse movements, scrolling, and delays to mimic real user behavior before interacting with the target.
 
 # Graceful Error Handling:
@@ -46,19 +46,19 @@ python -m venv venv
 venv\Scripts\activate
 
 ```
-# macOS/Linux
+## macOS/Linux
 ```
 python3 -m venv venv
 source venv/bin/activate
 ```
 
 
-# Install the required Python packages:
+## Install the required Python packages:
 ```
 pip install playwright fake-useragent playwright-stealth
 ```
 
-# Install Playwright Browser Binaries (Crucial Step):
+## Install Playwright Browser Binaries (Crucial Step):
 Playwright requires specific browser binaries to run. Download them by executing:
 
 ```
