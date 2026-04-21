@@ -14,7 +14,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # --- CONFIGURATION ---
-TARGET_SELECTOR = "button#submit-action, .click-me, text='Submit'" # Flexible selector
+TARGET_SELECTOR = "button#submit-action, .click-me, button:has-text('Submit')" # Flexible selector
 IP_LIST_FILE = "ip-list.txt"
 UA_LIST_FILE = "ua-list.txt"
 NAVIGATION_TIMEOUT = 30000 # 30 seconds
