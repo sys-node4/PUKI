@@ -1,4 +1,4 @@
-## Playwright Async Automation Bot 🤖
+# PUKI Bot 🤖
 
 A robust, asynchronous Python script built with Playwright to perform automated web visits and interactions. Designed for high reliability, this suite features dynamic proxy rotation, modern randomized User-Agents, and built-in stealth capabilities to bypass basic bot detection.
 
